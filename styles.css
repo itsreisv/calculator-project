@@ -1,3 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcBody {
+    border: black 5px solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    background-color: #D3D3D3;
+    margin-top: 100px;
+}
 
 .calculator {
     display: flex;
@@ -15,23 +31,52 @@
 }
 
 .btn {
-    width: 70px;
-    height: 70px;
+    width: 95px;
+    height: 95px;
     margin: 2px;
+    border: black 3px solid;
+    border-radius: 10px;
 }
 
 .clr {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 290px;
+    width: 195px;
     height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: black 3px solid;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dlt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: black 3px solid;
+    background-color: #ADD8E6;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 .display {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    border: black 2px solid;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    
+   
 }
 
 .topBtn {
@@ -43,10 +88,19 @@
 
 .input {
     display: flex;
-    border: black 2px solid;
-    border-radius: 5px;
-    width: 21%;
-    height: 40px;
-    justify-content: right;
-    align-items: flex-end;
+   justify-content: right;
+   margin-bottom: 0px;
+   margin-top: 40px;
+   margin-right: 5px;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px gray;
+    background-color: #67B7D1;
+}
+.clr:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.dlt:hover {
+    box-shadow: 5px 5px 5px gray;
 }
