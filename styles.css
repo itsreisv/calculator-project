@@ -31,14 +31,14 @@ body {
 }
 
 .btn {
-    width: 95px;
-    height: 95px;
-    margin: 2px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
     border: black 3px solid;
     border-radius: 10px;
 }
 
-.clr {
+.clear {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ body {
     font-size: 20px;
 }
 
-.dlt {
+.delete {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +70,9 @@ body {
 .display {
     display: flex;
     justify-content: right;
-    border: black 2px solid;
+    border: black 3px solid;
     border-radius: 8px;
-    width: 400px;
+    width: 395px;
     height: 70px;
     background-color: white;
     
